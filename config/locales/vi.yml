@@ -1,0 +1,35 @@
+vi:
+  layouts:
+    application:
+      title: "Ứng dụng mẫu Ruby on Rails Tutorial"
+      language: "ngôn ngữ"
+      en: "tiếng anh"
+      vi: "tiếng việt"
+      link_title_home_page: "Trang chủ"
+      link_title_help_page: "giúp đỡ"
+      link_title_log_in_page: "Đăng nhập"
+    footer:
+      content_1: "hướng dẫn lập trình Rails bởi"
+      link_title_michael_hartl: "Michael Hartl"
+      link_title_contact_page: "Liên lạc"
+      link_title_about_page: "Về chúng tôi"
+      link_title_rails_page: "Tin tức"
+    header:
+      logo_content: "Sample App"
+      link_title_home_page: "Trang chủ"
+      link_title_help_page: "giúp đỡ"
+      link_title_log_in_page: "Đăng nhập"
+  static_pages:
+    home:
+      title: "Trang chủ"
+      home_page: "Đây là trang chủ của "
+      sample_app: "sample application."
+      welcome_app: "Chào mừng đến với Sample App"
+      link_title_Rails_Tutorial: "Ruby on Rails Tutorial"
+      link_title_Sing_up: "Đăng ký!"
+    help:
+      title_help: "Tro Giup"
+      content_get_help_rutorial: "Để hiểu thêm về trang web, truy cập "
+      link_tutorial_help_page: "Trang trợ giúp Rails"
+      content_get_help_this_sample_app: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+      link_tutorial_book: "Ruby on Rails Tutorial book."
