@@ -2,6 +2,7 @@
 <html>
   <head>
     <title><%= t (".title"), locale: :vi %></title>
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +11,11 @@
   </head>
 
   <body>
+     <span>
+      <%= t".language" %>  :
+      <%= link_to t(".en"), locale: "en" %> |
+      <%= link_to t(".vi"), locale: "vi" %>
+    </span>
     <%= yield %>
   </body>
 </html>
