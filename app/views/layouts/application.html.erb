@@ -8,11 +8,16 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body>
+    <%= render "layouts/header"%>
     <span>
+    <div class="container">
+     <%= yield %>
+    </div>
+    <div class="container">
       <%= t".language" %>  :
       <%= link_to t(".en"), locale: "en" %> |
       <%= link_to t(".vi"), locale: "vi" %>
-    </span>
-    <%= yield %>
+    </div>
+    <%= render "layouts/footer"%>
   </body>
 </html>
