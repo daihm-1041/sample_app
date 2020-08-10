@@ -1,7 +1,11 @@
 <% provide :title, t(".title") %>
-<h1><%= t ".title" %></h1>
-<p>
-  <%= t ".home_page" %>
-  <%= link_to t(".link_title_Rails_Tutorial"), Settings.link.home.link_1%>
-  <%= t ".welcome_app" %>
-</p>
+<div class="center jumbotron">
+  <h1><%= t ".title" %></h1>
+  <h2>
+    <%= t ".home_page" %>
+    <%= link_to t(".link_title_Rails_Tutorial"), Settings.link.home.link_1%>
+    <%= t ".welcome_app" %>
+  </h2>
+  <%= link_to t(".sign_up_now"), signup_path, class: "btn btn-lg btn-primary"%>
+</div>
+<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200px"), "#" %>
