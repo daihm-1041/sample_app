@@ -5,6 +5,8 @@ vi:
       language: "ngôn ngữ"
       en: "tiếng anh"
       vi: "tiếng việt"
+      inform_success: "Nhan thanh cong!"
+      inform_failed: "Nhap that bai!"
     footer:
       content_1: "hướng dẫn lập trình Rails bởi"
       michael_hartl: "Michael Hartl"
@@ -35,5 +37,13 @@ vi:
       title: "Lien He Voi Chung Toi"
   users:
     new:
-      title: "Dang Nhap"
-      content_1: "Ban Nhap Thong Tin o trang nay."
+      title: "Sign up"
+      text:  "Day la trang dang nhap"
+      signup: "Tao Tai Khoan !"
+      create: "Tao tai khoan"
+      name: "Ho Ten"
+      email: "email"
+      password: "mat khau"
+      confirmation: "xac nhan mat khau!"
+  shared:
+    form: "Loi "
