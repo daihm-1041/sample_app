@@ -7,6 +7,13 @@ vi:
       vi: "tiếng việt"
       inform_success: "Nhan thanh cong!"
       inform_failed: "Nhap that bai!"
+      login_fail: "Email hoac mat khau sai !!!"
+      users: "Nguoi dung"
+      account: "Tai khoan"
+      profile: "Thong tin ca nhan"
+      setting: "Cai dat"
+      logout: "Dang xuat"
+      login: "Dang nhap"
     footer:
       content_1: "hướng dẫn lập trình Rails bởi"
       michael_hartl: "Michael Hartl"
@@ -47,3 +54,10 @@ vi:
       confirmation: "xac nhan mat khau!"
   shared:
     form: "Loi "
+  sessions:
+    new:
+      signup: "Dang ki ngay !!"
+      login: "Dang nhap"
+      email: "email"
+      password: "Mat khau"
+      new_users: "Nguoi dung moi?"

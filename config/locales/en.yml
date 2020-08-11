@@ -7,6 +7,13 @@ en:
       vi: "vietnamese"
       inform_success: "inform success"
       inform_failed: "error form"
+      login_fail: "Invalid email/password combination"
+      users: "Users"
+      account: "Accounts"
+      profile: "Profile"
+      setting: "Settings"
+      logout: "Log out"
+      login: "Log in"
     footer:
       content_1: "The Ruby on Rails Tutorial"
       michael_hartl: "Michael Hartl"
@@ -47,3 +54,10 @@ en:
       confirmation: "password confirmation"
   shared:
     form: "error form"
+  sessions:
+    new:
+      signup: "Sign up now!"
+      login: "Login"
+      email: "email"
+      password: "password"
+      new_users: "New user?"
