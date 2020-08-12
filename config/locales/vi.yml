@@ -8,7 +8,6 @@ vi:
       inform_success: "Nhan thanh cong!"
       inform_failed: "Nhap that bai!"
       login_fail: "Email hoac mat khau sai !!!"
-      users: "Nguoi dung"
       account: "Tai khoan"
       profile: "Thong tin ca nhan"
       setting: "Cai dat"
@@ -25,6 +24,7 @@ vi:
       home: "Trang chủ"
       help: "giúp đỡ"
       login: "Đăng nhập"
+      users: "Nguoi dung"
   static_pages:
     home:
       title: "Trang chủ"
@@ -61,3 +61,5 @@ vi:
       email: "email"
       password: "Mat khau"
       new_users: "Nguoi dung moi?"
+      remember_me: "Nho tai khoan"
+      remember: "gi nho dang nhap"

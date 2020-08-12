@@ -8,7 +8,6 @@ en:
       inform_success: "inform success"
       inform_failed: "error form"
       login_fail: "Invalid email/password combination"
-      users: "Users"
       account: "Accounts"
       profile: "Profile"
       setting: "Settings"
@@ -25,6 +24,7 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      users: "Users"
   static_pages:
     home:
       title: "Home"
@@ -61,3 +61,5 @@ en:
       email: "email"
       password: "password"
       new_users: "New user?"
+      remember_me: "remember_me"
+      remember: "remember me this computer"
