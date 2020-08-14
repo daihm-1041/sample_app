@@ -13,6 +13,8 @@ vi:
       setting: "Cai dat"
       logout: "Dang xuat"
       login: "Dang nhap"
+      login_success: "Dang nhap thanh cong!"
+      invalid_user: "Khong co tai khoan nay"
     footer:
       content_1: "hướng dẫn lập trình Rails bởi"
       michael_hartl: "Michael Hartl"
@@ -44,7 +46,7 @@ vi:
       title: "Lien He Voi Chung Toi"
   users:
     new:
-      title: "Sign up"
+      title: "Dang ky"
       text:  "Day la trang dang nhap"
       signup: "Tao Tai Khoan !"
       create: "Tao tai khoan"
@@ -52,6 +54,15 @@ vi:
       email: "email"
       password: "mat khau"
       confirmation: "xac nhan mat khau!"
+      profile_updated: "profile update"
+      user_deleted: "user deleted"
+      inform_login: "infrom login"
+      delete: "xoa "
+      all_users: "tat ca user"
+      change: "thay doi"
+      edit_user: "Sua tai khoan"
+      save_change: "Luu lai"
+      confirm: "xac nhan"
   shared:
     form: "Loi "
   sessions:

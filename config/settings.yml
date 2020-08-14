@@ -1,4 +1,5 @@
 link:
+  link_avt: "http://gravatar.com/emails"
   home:
     link_1: "https://www.railstutorial.org/"
   help:
@@ -15,3 +16,4 @@ validate:
     validate_email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 number:
   checkbox: 1
+  page: 5
