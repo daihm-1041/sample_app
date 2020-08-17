@@ -13,6 +13,8 @@ en:
       setting: "Settings"
       logout: "Log out"
       login: "Log in"
+      login_success: "login success!"
+      invalid_user: "Invalid user"
     footer:
       content_1: "The Ruby on Rails Tutorial"
       michael_hartl: "Michael Hartl"
@@ -52,6 +54,15 @@ en:
       email: "email"
       password: "password"
       confirmation: "password confirmation"
+      profile_updated: "Cap nhat trang ca nhan"
+      user_deleted: "xoa tai khoan"
+      inform_login: "form dang nhap"
+      delete: "delete"
+      all_users: "All users"
+      change: "change"
+      edit_user: "Edit user"
+      save_change: "Save change"
+      confirm: "confirm"
   shared:
     form: "error form"
   sessions:
