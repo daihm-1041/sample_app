@@ -23,7 +23,7 @@ class SessionsController < ApplicationController
       log_in user
       check_remember user
       flash[:success] = t "layouts.application.activate_success"
-      redirect_back_or user
+      redirect_to user
     else
       flash[:warning] = t "layouts.application.activate_fail"
       redirect_to root_url

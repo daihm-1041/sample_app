@@ -17,3 +17,4 @@ validate:
 number:
   checkbox: 1
   page: 5
+  two: 2
