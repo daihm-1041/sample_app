@@ -12,9 +12,17 @@ validate:
   user:
     max_length_name: 50
     max_length_email: 255
-    min_length_password: 6
+    min_length_password: 5
     validate_email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 number:
   checkbox: 1
   page: 5
   two: 2
+  size: 500
+images:
+  avatar_size: 80
+  avatar_imicropost_size: 50
+micropost:
+  content_max_lenght: 140
+  image_size: 5
+content_type_image: /%w(image/jpeg image/gif image/png)/
