@@ -1,0 +1,6 @@
+<% if @error.blank? %>
+  $("#follow_form").html("<%= j render "users/follow") %>");
+  $("#followers").html("<%= @user.followers.size %>");
+<% else %>
+  alert("<%= @error %>");
+<% end %>
